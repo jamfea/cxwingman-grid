@@ -1,0 +1,38 @@
+{
+    "eslint.format.enable": true,
+    "git.decorations.enabled": false,
+    "eslint.enable": true,
+    "eslint.trace.server": "messages",
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "vue",
+        "html",
+        "markdown",
+        "TypeScript",
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "volar.takeOverMode.extension": "Vue.volar",
+    "totalTypeScript.hideBasicTips": true,
+    "totalTypeScript.showFullTranslation": false,
+    "totalTypeScript.showTLDRTranslation": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+}
